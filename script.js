@@ -9,7 +9,7 @@ const prices = document.getElementsByClassName("price");
 	for(let i = 0; i < prices.length; i++ ){
 		sum +=parseInt(prices[i].textContent);
 	}
-  const total = document.querySelector(".total");
+  const total = document.querySelector("#ans");
 	total.textContent = "total:" + sum;
 };
 
